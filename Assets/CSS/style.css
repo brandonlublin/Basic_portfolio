@@ -1,65 +1,70 @@
 body {
-    width: 960px;
     margin: auto;
     background-image: url('/Assets/Images/white-waves.png');
 }
 header {
     width: 100%;
     background-color: #ffffff;
-    padding-right: 352px;
-}
-div ul {
-    border-bottom: #dddddd;
-    /* display: inline; */
-    float: right;
-    list-style: none;
+    border-bottom-color: #cccccc;
 }
 h1 {
+
     background-color: #4aaaa5;
-    width: 250px;
-    padding: 25px;
     color: #ffffff;
-    text-align: center;
+/* Positioning */
     margin-top: 0;
+    margin-left: 21.5%;
+    width: 250px;
+    padding: 30px;
+    padding-right: 0px;
 }
-li, a{
-    font-size: 20px;
-    padding: 15px;
+nav, a {
+/* Appearance */
+    font-size: 15px;
     text-decoration: none;
     font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-    list-style: none;
-    margin-top: 0;
-    display: inline;
+/* Positioning */
+    float: right;
+    padding: 15px;
+    border-right-style: 
+}
+nav {
+/* Positioning */
+    padding-right: 370px;
 }
 a:hover {
+/* Appearance */
     text-decoration: underline;
 }
 h2 {
-    padding: 10px;
-    width: 150px;
-    padding-left: 40px;
+/* Appearance */
     clear: both;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    border-color: #cccccc;
     color: #4aaaa5;
+/* Positioning */
+    padding: 30px;
+    width: 150px;
 }
 .profilePic {
     height: 200px;
     width: 200px;
     float: left;
-    padding-right: 10px;
-    margin-left: 10px;
+    padding: 28px;
 }
 .paragraph {
     font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    padding-left: 10px;
+    padding: 20px;
     text-indent: 20px;
+    color:#777777;
+    font-size: 20px;
 }
 .mainBlock {
     background-color: #ffffff;
     border-color: #dddddd;
     padding-bottom: 400px;
+    width: 960px;
+    margin: auto;
 }
 .mainBlock::after {
     display: block;
@@ -69,4 +74,11 @@ h2 {
     background-color: #ffffff;
     padding-bottom: 35px;
     text-align: center;
+    margin: auto;
+    width: 960px;
+}
+.hr {
+    width: 900px;
+    background-color: #cccccc;
+    color: #cccccc;
 }
