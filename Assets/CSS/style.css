@@ -12,6 +12,7 @@ header {
     margin: 0;
     padding: 0;
     border-bottom: 1px solid #cccccc;
+
 }
 h1 {
     background-color: #4aaaa5;
@@ -39,7 +40,6 @@ nav, a {
     border-right: .5px solid #eff0f1;
     margin-top: 10px;
     line-height: 2px;
-    
 }
 a:first-child {
     border: 0;
