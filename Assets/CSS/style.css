@@ -1,6 +1,7 @@
 html {
-    position: relative;
+    position: relative; */
     min-height: 100%;
+    /* display: table; */
 }
 body {
     margin: auto;
