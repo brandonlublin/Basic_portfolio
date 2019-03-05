@@ -1,7 +1,6 @@
 html {
-    position: relative; */
+    position: relative;
     min-height: 100%;
-    /* display: table; */
 }
 body {
     margin: auto;
@@ -10,17 +9,20 @@ body {
 header {
     width: 100%;
     background-color: #ffffff;
-    margin: 0;
+    margin: auto;
     padding: 0;
     border-bottom: 1px solid #cccccc;
-
+}
+.headerSection {
+    margin: auto;
+    width: 960px;
 }
 h1 {
     background-color: #4aaaa5;
     color: #ffffff;
 /* Positioning */
     margin-top: 0;
-    margin-left: 21.5%;
+    /* margin-left: 21.5%; */
     margin-bottom: 0;
     width: 250px;
     padding: 30px;
@@ -38,16 +40,14 @@ nav, a {
 /* Positioning */
     float: right;
     padding: 10px;
-    border-right: .5px solid #eff0f1;
     margin-top: 10px;
-    line-height: 2px;
+}
+a {
+    border-right: .5px solid #d5d6d8;
+    line-height: 1px;
 }
 a:first-child {
     border: 0;
-}
-nav {
-/* Positioning */
-    padding-right: 370px;
 }
 a:hover {
 /* Appearance */
@@ -164,4 +164,9 @@ button {
     margin-top: 10px;
     font-size: 15px;
     width: 120px;
+}
+@media screen and (max-width: 980px) {
+    header {
+        display: inline-block;
+    }
 }
